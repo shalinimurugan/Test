@@ -1,0 +1,58 @@
+Starting at Fri Oct 14 05:31:17 2016as saro
+Finished mailer at Fri Oct 14 10:24:45 2016Finished at Fri Oct 14 10:24:45 2016
+Starting at Fri Oct 14 11:30:07 2016as saro
+Finished at Fri Oct 14 12:10:43 2016
+Starting at Fri Oct 14 13:30:42 2016as saro
+Finished at Fri Oct 14 14:16:50 2016
+Starting at Fri Oct 14 15:30:07 2016as saro
+Finished at Fri Oct 14 16:08:12 2016
+Starting at Fri Oct 14 17:31:07 2016as saro
+Finished at Fri Oct 14 18:24:40 2016
+Starting at Fri Oct 14 19:31:15 2016as saro
+Finished at Fri Oct 14 20:37:07 2016
+Starting at Fri Oct 14 21:31:22 2016as saro
+Finished at Fri Oct 14 22:33:20 2016
+Starting at Fri Oct 14 23:31:14 2016as saro
+Finished at Sat Oct 15 00:22:32 2016
+Starting at Sat Oct 15 01:30:57 2016as saro
+Finished at Sat Oct 15 02:37:59 2016
+Starting at Sat Oct 15 03:31:12 2016as saro
+Finished at Sat Oct 15 04:40:37 2016
+Starting at Sat Oct 15 05:31:20 2016as saro
+Finished mailer at Sat Oct 15 10:32:16 2016Finished at Sat Oct 15 10:32:16 2016
+Starting at Sat Oct 15 11:30:08 2016as saro
+Finished at Sat Oct 15 12:12:49 2016
+Starting at Sat Oct 15 13:30:09 2016as saro
+Finished at Sat Oct 15 14:15:23 2016
+Starting at Sat Oct 15 15:30:08 2016as saro
+Finished at Sat Oct 15 16:09:43 2016
+Starting at Sat Oct 15 17:30:36 2016as saro
+Finished at Sat Oct 15 18:20:35 2016
+Starting at Sat Oct 15 19:31:13 2016as saro
+Finished at Sat Oct 15 20:35:01 2016
+Starting at Sat Oct 15 21:30:37 2016as saro
+Finished at Sat Oct 15 22:31:01 2016
+Starting at Sat Oct 15 23:30:08 2016as saro
+Finished at Sun Oct 16 00:13:38 2016
+Starting at Sun Oct 16 01:31:02 2016as saro
+Finished at Sun Oct 16 02:37:43 2016
+Starting at Sun Oct 16 03:31:05 2016as saro
+Finished at Sun Oct 16 04:37:06 2016
+Starting at Sun Oct 16 05:31:17 2016as saro
+Finished mailer at Sun Oct 16 11:53:45 2016Finished at Sun Oct 16 11:53:45 2016
+Starting at Sun Oct 16 13:30:46 2016as saro
+Finished at Sun Oct 16 14:21:07 2016
+Starting at Sun Oct 16 15:30:08 2016as saro
+Finished at Sun Oct 16 16:08:52 2016
+Starting at Sun Oct 16 17:30:16 2016as saro
+Finished at Sun Oct 16 18:21:39 2016
+Starting at Sun Oct 16 19:31:10 2016as saro
+Finished at Sun Oct 16 20:37:19 2016
+Starting at Sun Oct 16 21:31:06 2016as saro
+Finished at Sun Oct 16 22:35:14 2016
+Starting at Sun Oct 16 23:30:08 2016as saro
+Finished at Mon Oct 17 00:12:57 2016
+Starting at Mon Oct 17 01:30:59 2016as saro
+Finished at Mon Oct 17 02:35:29 2016
+Starting at Mon Oct 17 03:31:10 2016as saro
+Finished at Mon Oct 17 04:03:13 2016
