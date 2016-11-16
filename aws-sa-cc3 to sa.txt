@@ -1,0 +1,104 @@
+-bash-4.1$ connect aws-sa-cc3
+Connecting to aws-sa-cc3.pixel8networks.com
+Your actions are being logged.
+Operating in full mode for support assistance
+
+# . /etc/profile
+aws-sa-cc3#
+[SA:aws-sa-cc3]#
+[SA:aws-sa-cc3]# cat /mnt/.startupscript 2>/dev/null
+#! /bin/sh
+# created by upgrade_check
+
+/mnt/add_pre56_sysctls   # !!! DO NOT REMOVE FROM PRE-5.6 RELEASES <PRE_56_SYSCTLS>
+[SA:aws-sa-cc3]#
+
+==============================
+-bash-4.1$ findport -p aws-sa-cc3
+aws-sa-cc3.pixel8networks.com   11969   support-nn
+
+=============================
+-bash-4.1$ sacp aws-sa-cc3:/mnt/qq .
+./qq
+-bash-4.1$ cccp aws-sa-cc3:/mnt/gg .
+3600, aws-sa-cc3:/mnt/gg, .
+Connecting to controller 'aws-sa-cc3', getting 'aws-sa-cc3:/mnt/gg' to 'gg' via 7rx9P_v3bA7X0H5M at /usr/bin/cccp line 84.
+Tmp Filename /mnt/sa-logs/10.200.253.243_2016-08-10-02-57-57_cccp.p8
+-rwxr-xr-x 1 saro saro 0 Aug 10 02:57 /mnt/sa-logs/10.200.253.243_2016-08-10-02-57-57_cccp.p8*
+-rwxr-xr-x 1 smurugan smurugan 0 Aug 10  2016 gg*
+Done.
+================================
++ SPROXY=''
++ cd /mnt/tmp
++ /usr/bin/curl -s --interface 10.222.100.253 --max-time 18000 --connect-timeout 600 --cacert /etc/ca.crt --cert /etc/vmonitor.pem -F filepassword=@/mnt/tmp/testfile.p8 https://postme:pOstmE45@support26.pixel8networks.com/upload.php
++ RES='saved as file -rw------- 1 apache apache 17166 Aug 10 03:01 /tmp/jInEdlvjUr
+Tony: /mnt/sa-logs/10.200.253.243_2016-08-10-03-01-49_.p8 uploaded!'
++ echo 'saved as file -rw------- 1 apache apache 17166 Aug 10 03:01 /tmp/jInEdlvjUr
+Tony: /mnt/sa-logs/10.200.253.243_2016-08-10-03-01-49_.p8 uploaded!'
++ head -n 1
++ grep -q '^#!'
++ [ 1 = 0 ]
++ echo 'saved as file -rw------- 1 apache apache 17166 Aug 10 03:01 /tmp/jInEdlvjUr
+Tony: /mnt/sa-logs/10.200.253.243_2016-08-10-03-01-49_.p8 uploaded!'
++ grep -q uploaded
+
+==========
+-bash-4.1$ cd /mnt/sa-logs
+-bash-4.1$ ls 10.200.253.243_2016-08-10-03-01-49_.p8 uploaded
+ls: cannot access uploaded: No such file or directory
+10.200.253.243_2016-08-10-03-01-49_.p8
+
+-rwxr-xr-x 1 saro saro      17166 Aug 10 03:01 10.200.253.243_2016-08-10-03-01-49_.p8
+-rwxr-xr-x 1 saro saro     315884 Aug 10 03:02 10.200.253.242_2016-08-10-03-02-04_.p8
+-rwxr-xr-x 1 saro saro     224267 Aug 10 03:03 10.200.253.243_2016-08-10-03-03-04_.p8
+
+======================================
+
+[SA:aws-sa-cc3]# p8-upgrade
+kenv: unable to get pz.support_interface
+kenv: unable to get pz.support_proxy
+Checking for updates...
+Found a new version 6.2.0.5.9344.CR
+Upgrade: PRODUCT=CloudController, MAJ=6, MIN=2, MAINT=0, PATCH=5
+Upgrade: VERSION CHECK PASS ==> 1
+Downloading latest image CloudController.6.2.0.5.9344.CR
+Downloading CloudController.6.2.0.5.9344.CR.gz...
+Verifying checksum for CloudController.6.2.0.5.9344.CR...
+cp: /tmp/.nhuINb/boot/zfs/zpool.cache: No such file or directory
+cp: /tmp/.nhuINb/boot/zfs/zpool.cache.new: No such file or directory
+mv: cannot stat `/tmp/.nhuINb/boot/zfs/zpool.cache.new': No such file or directory
+Upgrade: system is upgraded to 6.2.0.5.9344. System reboot is required.
+Checking for updates...
+=============
+[SA:aws-sa-cc3]# image.sh version
+image-2  - 6.2.0.6.9446 - active
+image-1  - 6.2.0.5.9344
+image-0 - No_Image
+Booting: image2
+
+[SA:aws-sa-cc3]# image.sh
+image.sh switch_active # to switch active image
+image.sh version         # to show images
+image.sh set_active <number>     # to set active image
+
+[SA:aws-sa-cc3]# image.sh switch_active image-1
+Booting: image1
+[SA:aws-sa-cc3]# reboot
+
+Rebooting (aws-sa-cc3.pixel8networks.com) in 6 seconds. Hit Ctrl-C to cancel
+
+6.5.4.3.2.1.
+==========================================
+[SA:aws-sa-cc3]# image.sh version
+image-1  - 6.2.0.5.9344 - active
+image-2  - 6.2.0.6.9446
+image-0 - No_Image
+Booting: image1
+ ================================================
+ 
+ [SA:aws-sa-cc3]# md5sum /mnt/.startupscript
+5f71f8fd1a15594c42350162e3683834  /mnt/.startupscript
+
+[SA:aws-sa-cc3]# md5sum /mnt/.startupscript
+262b58be3bd53eb4c333137fe42e4688  /mnt/.startupscript
+==================================================
